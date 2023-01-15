@@ -1,0 +1,7 @@
+sum=0
+silnia=1
+for i=1:1:20
+    silnia=silnia*i
+    sum=sum+(1./silnia)
+end
+disp(sum)
